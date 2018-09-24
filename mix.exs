@@ -45,7 +45,7 @@ defmodule RethinkDB.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:poison, "~> 3.1"},
+      {:poison, "~> 4.0"},
       {:ex_doc, "~> 0.18", only: :dev},
       {:flaky_connection, github: "norpan/flaky_connection", only: :test},
       {:connection, "~> 1.0"},
