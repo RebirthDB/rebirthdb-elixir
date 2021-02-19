@@ -50,7 +50,7 @@ defmodule RethinkDB.Mixfile do
       {:flaky_connection, github: "norpan/flaky_connection", only: :test},
       {:connection, "~> 1.0"},
       {:excoveralls, "~> 0.8", only: :test},
-      {:dialyxir, "~> 0.5", only: :dev}
+      {:dialyxir, "~> 1.1", only: :dev}
     ]
   end
 end
